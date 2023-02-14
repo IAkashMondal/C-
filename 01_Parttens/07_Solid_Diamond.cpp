@@ -4,7 +4,7 @@ int main(){
       int n;
   cout << "Incert n"<<endl;
   cin >> n;
-//   Full triangle-------------------->
+    //   Full triangle-------------------->
   for (int i = 0; i < n-1; i++) {
     // space---------------->
     for (int c = 0; c < n - i - 1; c++) {
