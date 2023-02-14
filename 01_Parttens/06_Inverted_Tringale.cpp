@@ -2,7 +2,7 @@
 using namespace std;
 int main(){
       int n;
-  cout << "Incert n"<<endl;
+  cout << "Incert n" << endl;
   cin >> n;
     for (int i = 0; i < n; i++) {
     // space---------------->

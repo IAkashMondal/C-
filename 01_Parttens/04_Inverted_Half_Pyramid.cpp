@@ -12,7 +12,7 @@ int main(){
     cout << endl;
   }
 }
-   // r0 *  *  *
+  // r0 *  *  *
   // r1 *  *
   // r2 *
   // rc c0 c1 c2
