@@ -1,11 +1,6 @@
 #include<iostream>
 using namespace std;
 int main(){
-  // no.2
-  //     c0  c1 c2 c3 c4 c5
-  // r0   *   *  * *  *  *
-  // r1   *              *
-  // r2   *   *  * *  *  *
     int r,c;
     cout << "Incert r" << endl;
     cin >> r ;
@@ -28,6 +23,9 @@ int main(){
     
     cout << endl;
   }
-
-cout <<sizeof(c) ;
 }
+  // no.2
+  //     c0  c1 c2 c3 c4 c5
+  // r0   *   *  * *  *  *
+  // r1   *              *
+  // r2   *   *  * *  *  *
