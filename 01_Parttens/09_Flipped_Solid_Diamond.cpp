@@ -2,8 +2,8 @@
 using namespace std;
 int main(){
  int n;
- cin >> n ;
  cout <<" incert n"<< endl;
+ cin >> n ;
 //   1st half------------------------------------------------>
  for(int i=0 ;i<n;i++){
     // half pyramid---------------->
