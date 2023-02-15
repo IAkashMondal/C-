@@ -17,7 +17,7 @@ int main(){
     for(int i=n-1;i>=0;i--){
         for(int j=0;j<i+1;j++){
             cout<< i+1;
-            if(j!=i){ //i representing last char
+            if(j!=i){ 
                 cout<<"*";
             }
         }
