@@ -7,10 +7,15 @@ int main(){
 
     for(int i=0;i<n;i++){
         for(int j=0;j<i+1;j++){
-            cout << j+1;
+            int ans = j+1;
+            char NumToChar = ans+ 'A' -1;
+            cout << NumToChar <<" ";
         }
         for(int j=i-1;j>=1;j--){
-            cout << j;
+            
+            int ans = j;
+            char NumToChar = ans+ 'A'-1;
+            cout << NumToChar <<" ";
         }
         cout <<endl;
     }
@@ -21,3 +26,8 @@ int main(){
 // 121
 // 12321
 // 1234321
+
+// A
+// ABA
+// ABCBA
+// ABCDCBA
