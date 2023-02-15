@@ -2,9 +2,9 @@
 using namespace std;
 int main(){
     int r,c;
-    cout << "Incert r" << endl;
+    cout << "Incert r -------------------->" << endl;
     cin >> r ;
-    cout << "Incert c" << endl;
+    cout << "Incert c -------------------->" << endl;
     cin >>c ;
 
     for(int i=0;i<r;i++){
