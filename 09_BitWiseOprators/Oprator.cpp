@@ -10,7 +10,7 @@ int main(){
     cout << (a&d )<<endl; // true & true => false;
     cout << (a|d )<<endl; // true & true => false;
     cout << (~a )<<endl; // -2
-    cout << (~b )<<endl; //-1
+    cout << (~b )<<endl; //-1 
 
     int v =5;
     cout<< (++v)*(++v)<< endl ;
