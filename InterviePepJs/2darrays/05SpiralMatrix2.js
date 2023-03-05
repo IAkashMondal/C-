@@ -41,3 +41,4 @@ console.log(
   "\n"
 );
 console.log(result.join(" "));
+console.log("T: O(n) & S: O(n)");

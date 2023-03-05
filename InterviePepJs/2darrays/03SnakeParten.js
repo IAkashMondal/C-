@@ -25,3 +25,4 @@ for (let r = 0; r < Row; r++) {
   }
 }
 console.log(SnakeDigonal);
+console.log("T: O(n^2) & S: O(n)");
