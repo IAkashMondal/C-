@@ -20,3 +20,4 @@ for (let i = 0; i < row; i++) {
   }
 }
 console.log("Minimum sum in a row is:", minSum, "row number is:", minRowIndex);
+console.log("T: O(n62) & S: O(1)");
