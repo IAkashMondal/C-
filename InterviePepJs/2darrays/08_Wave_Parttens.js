@@ -20,3 +20,10 @@ for (let i = 0; i < clm; i++) {
   }
 }
 console.log(bag);
+console.log("T: O(n^2) & S: O(n)");
+
+// The time complexity of the code is O(N^2), where N is the total number of elements in the matrix. This is because the code iterates through each element of the matrix exactly once in the nested loops.
+
+// The space complexity of the code is O(N), where N is the total number of elements in the matrix. This is because the code uses a string variable bag to store the elements in the desired order, and the size of the string variable is proportional to the number of elements in the matrix.
+
+// Therefore, the overall time complexity of the code is quadratic in the size of the input matrix, and the space complexity is linear in the size of the input matrix.
