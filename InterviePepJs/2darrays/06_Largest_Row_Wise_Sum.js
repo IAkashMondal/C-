@@ -20,3 +20,4 @@ for (let i = 0; i < row; i++) {
   }
 }
 console.log("Max sum in a row is:", maxSum, "row number is:", maxRowIndex);
+console.log("T: O(n) & S: O(1)");
