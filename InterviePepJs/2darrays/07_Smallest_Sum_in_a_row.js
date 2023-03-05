@@ -19,4 +19,4 @@ for (let i = 0; i < row; i++) {
     minRowIndex = i;
   }
 }
-console.log("Max sum in a row is:", minSum, "row number is:", minRowIndex);
+console.log("Minimum sum in a row is:", minSum, "row number is:", minRowIndex);
