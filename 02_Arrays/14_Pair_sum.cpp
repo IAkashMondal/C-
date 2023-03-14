@@ -6,23 +6,19 @@ using namespace std;
 
 int main(){
 
-    int k;
-    cout<<"add target value"<<endl;
-    cin >>k;
-    vector<int>arr1{1,2,3,4,5};
-    vector<int>ans;
+    int k ;
+    cout <<"Add target"<< endl;
+    cin>> k;
+    vector<int>arr{10,20,30,40,50,60,70};
 
-    for(int i =0;i<arr1.size();i++){
-        for(int j = i+1;i<arr1.size();j++){
-            if((arr1[i]+arr1[j]) ==k){
-                cout <<arr1[i] << arr1[j]<<" " ;
-                ans.push_back((arr1[i],arr1[j]));
+    for(int i=0;i< arr.size();i++){
+        for(int j =i+1 ;j<arr.size();j++){
+            if(arr[i]+arr[j]==k){
+                 cout<<k<<" pair Found: "<< arr[i] <<" , "<<arr[j]<< endl;
             }
+            
         }
     }
-    for(auto value:ans){
-        cout<< value <<" ";
-    }
-    cout<< endl;
+
     return 0;
 }
