@@ -1,5 +1,4 @@
 #include<iostream>
-#include<vector>
 using namespace std;
 
 int BinarySearch(int arr[],int n, int target){
@@ -8,7 +7,7 @@ int BinarySearch(int arr[],int n, int target){
     int mid =(left+right)/2;
     while(left<=right){
         int elem =arr[mid];
-        if(target== mid){
+        if(elem == target){
             return mid;
         }
         else if(target< elem){
