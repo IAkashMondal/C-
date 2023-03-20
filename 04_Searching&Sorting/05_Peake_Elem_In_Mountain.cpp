@@ -1,3 +1,7 @@
+// Leet Code: https://leetcode.com/problems/peak-index-in-a-mountain-array/
+// Question no:852;
+// Peak Index in a Mountain Array
+
 #include<iostream>
 #include<vector>
 using namespace std;
