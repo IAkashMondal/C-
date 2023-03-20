@@ -2,7 +2,7 @@
 #include<vector>
 using namespace std;
 
-int Last_Occurance(vector<int>arr, int target){
+int Last_Occurance(vector <int>arr, int target){
     int start=0;
     int end= arr.size()-1;
     int mid = start+(end-start)/2;
@@ -10,12 +10,13 @@ int Last_Occurance(vector<int>arr, int target){
     while (start<=end){
         if(target== arr[mid]){
             ans=mid;
+            start =mid+1;
         }
         else if(target < arr[mid]){
-            start= mid+1;
+           end= mid-1; 
         }
         else if(target >arr[mid]){
-            end= mid-1;
+            start= mid+1;
         }
         mid = start+(end-start)/2;
     }
