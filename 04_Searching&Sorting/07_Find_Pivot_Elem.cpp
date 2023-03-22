@@ -16,7 +16,7 @@ int Find_Pivot_Elem(vector <int>arr){
         else if(arr[start]>= arr[mid]){
             end =mid-1;
         }
-        else if(arr[start]<= arr[mid]){
+        else if(arr[start]< arr[mid]){
             start = mid+1;
         }
         mid = start+(end-start)/2;
@@ -27,14 +27,14 @@ int Find_Pivot_Elem(vector <int>arr){
 
 int main(){
     cout<<"Consideing Piviot : 7----------------------------------------> "<< endl;
-    vector <int>arr{1,2,3,4,7};
+    vector <int>arr{11,1,2,3,4,7,};
     int result = Find_Pivot_Elem(arr);
     
     if(result == -1){
          cout<<"Not Found"<<endl;
     }
     else{
-        cout <<"foundv"<<result<<endl;
+        cout <<"found "<< arr[result]<<endl;
     }
 
     return 0;
