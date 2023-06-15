@@ -13,7 +13,7 @@ int main(){
       }
     } else {
       for (int j = 0; j < c; j++) {
-        if (j == 0 || j == c) {
+        if (j == 0 || j == sizeof(c)) {
           cout << "* ";
         } else {
           cout << "  ";
