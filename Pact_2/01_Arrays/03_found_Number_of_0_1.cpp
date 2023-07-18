@@ -13,7 +13,7 @@ for(int i=0;i<size;i++){
         zeros++;
     }
     else if(arr1[i]==1) {
-        ones++;;
+        ones++;
     }
 }
 cout<<"number of zeros: "<<zeros<<" & Number of 1's: "<< ones<<endl;
