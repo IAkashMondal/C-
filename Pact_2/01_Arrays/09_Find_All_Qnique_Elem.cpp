@@ -32,3 +32,4 @@ int main() {
   cout << endl;
   return 0;
 }
+// O(n^2)
