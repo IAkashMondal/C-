@@ -7,7 +7,7 @@ using namespace std;
     for(int i=0;i<arr1.size();i++){
         for(int j=0;j<arr2.size();j++){
             if(arr1[i]==arr2[j]){
-                arr2[j]=-1;
+                arr2[j]= INT16_MIN;
                 ans.push_back(arr1[i]);
             }
         }
