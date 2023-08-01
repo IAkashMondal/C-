@@ -15,12 +15,12 @@ using namespace std;
  }
 int main(){
 
-vector<int>arr1={1,2,3,4,5};
+vector<int>arr1={1,2,3,4,5,14};
 vector<int>arr2={1,2,11,4,5};
 vector<int>ans;
 vector<int> res = IntersectionArr(arr1,arr2);
-for(int ans :res){
-cout <<ans <<" ";
+for(auto value :res){
+cout <<value <<" ";
 }
 cout<< endl;
 return 0;
