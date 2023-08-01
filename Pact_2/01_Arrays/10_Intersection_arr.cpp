@@ -7,6 +7,7 @@ using namespace std;
     for(int i=0;i<arr1.size();i++){
         for(int j=0;j<arr2.size();j++){
             if(arr1[i]==arr2[j]){
+                arr2[j]= INT16_MIN;
                 ans.push_back(arr1[i]);
             }
         }
@@ -15,8 +16,8 @@ using namespace std;
  }
 int main(){
 
-vector<int>arr1={1,2,3,4,5,14};
-vector<int>arr2={1,2,11,4,5};
+vector<int>arr1={1,2,2,3,4,5,14};
+vector<int>arr2={1,2,11,2,4,5};
 vector<int>ans;
 vector<int> res = IntersectionArr(arr1,arr2);
 for(auto value :res){
