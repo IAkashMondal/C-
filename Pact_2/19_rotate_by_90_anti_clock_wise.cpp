@@ -6,14 +6,14 @@ void RotateBy90DegreCounterClockWise(int arr[][3], int r, int c)
 {
     for (int i = 0; i < r; i++)
     {
-        for (int j = i+1; j < c; j++)
+        for (int j = i+1; j < c; j++) // Use j = i + 1 to avoid swapping elements twice.
         {
             int temp = arr[i][j];
             arr[i][j] = arr[j][i];
             arr[j][i] = temp;
         }
     }
-    // reverse the row ------------->
+    // reverse the colum------------->
     for (int i = 0; i < r; i++)
     {
         int start = 0;
