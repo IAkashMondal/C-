@@ -2,7 +2,7 @@
 #include <vector>
 using namespace std;
 
-void Transposematrix(int arr[][3], int r, int c)
+void RotateBy90DegreClockWise(int arr[][3], int r, int c)
 {
     for (int i = 0; i < r; i++)
     {
@@ -48,7 +48,7 @@ int main()
         {1, 2, 3},
         {4, 5, 6},
         {7, 8, 9}};
-    Transposematrix(arr, r, c);
+    RotateBy90DegreClockWise(arr, r, c);
     PrintMatrix(arr, r, c);
 
     cout << endl;
