@@ -5,6 +5,7 @@
     "10_fancy_parten": "cpp",
     "array": "cpp",
     "initializer_list": "cpp",
-    "utility": "cpp"
+    "utility": "cpp",
+    "functional": "cpp"
   }
 }
