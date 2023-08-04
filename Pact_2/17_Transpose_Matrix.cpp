@@ -14,7 +14,7 @@ void Transposematrix(int arr[][3], int r, int c, int TranposeArr[][3])
     // With An Arr------------------>
     for (int i = 0; i < r; i++)
     {
-        for (int j = 0; j < c; j++) // i+1 to avoide swaping elements twice
+        for (int j = 0; j < c; j++) 
         {
             TranposeArr[i][j] = arr[j][i];
         }
