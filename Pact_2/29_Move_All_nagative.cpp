@@ -24,7 +24,7 @@ int MoveAllNagative(vector<int> &nums)
 
 int main()
 {
-    vector<int> nums = {6, 3, -1, 2, -3, -12, -2, 4, 32};
+    vector<int> nums = {6, 3, -1, 2, -3, -12, -2, 4, 22};
     MoveAllNagative(nums);
 
     for (int num : nums)
