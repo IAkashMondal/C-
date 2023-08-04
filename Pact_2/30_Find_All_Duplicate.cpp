@@ -22,7 +22,7 @@ int DuplicateNums(vector<int> arr)
     // return -1;
 
 
-    
+
     // method --2----without sort----->
     // indexing method----------------->
     while ((arr[0] != arr[arr[0]]))
@@ -41,3 +41,4 @@ int main()
 
     return 0;
 }
+// Quistion link: https://leetcode.com/problems/find-the-duplicate-number/submissions/1012057094/
