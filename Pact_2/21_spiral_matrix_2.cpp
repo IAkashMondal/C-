@@ -31,7 +31,7 @@ int main()
             count++;
         }
         top++;
-        for (int i = top; i < bottom && condition; i++)
+        for (int i = top; i <= bottom && condition; i++)
         {
             ans.push_back(mat[i][right]);
 
