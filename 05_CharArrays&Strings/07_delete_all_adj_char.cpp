@@ -9,24 +9,19 @@ void removeAllAdjElem(string input)
     string ans = "";
     while (i < n)
     {
-        if (ans.length() > 0)
+
+        if (ans.length() > 0 && ans[ans.length() - 1] == input[i])
         {
-            if (ans[ans.length() - 1] == input[i])
-            {
-                ans.pop_back();
-            }
-            else
-            {
-                ans.push_back(input[i]);
-            }
+            ans.pop_back();
         }
         else
         {
             ans.push_back(input[i]);
         }
+
         i++;
     }
-     cout << "Modified String: " << ans << endl;
+    cout << "Modified String: " << ans << endl;
 }
 int main()
 {
@@ -37,5 +32,5 @@ int main()
 
     removeAllAdjElem(input);
 
-        return 0;
+    return 0;
 }
